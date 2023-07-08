@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/Forms/Login.css" />
+    <link rel="stylesheet" href="../css/Forms/SingUp.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://www.freepnglogos.com/uploads/music-logo-black-and-white-png-21.png"
+    />
+    <title>[DIF] Music</title>
+  </head>
+  <body>
+    <header>
+      <h1>DIF <b>Music</b></h1>
+      <i class="fa-solid fa-headphones"></i>
+    </header>
+
+    <main>
+      <div class="main-container">
+        <h1 class="title">SingUp to DIF Music</h1>
+        <form action="" onsubmit="return validFunction()">
+          <div class="names">
+            <div class="fname">
+              <label for="" id="valid1">First Name</label>
+              <input type="text" placeholder="Enter Your First Name" id="fname"/>
+            </div>
+            <div class="lname">
+              <label for="" id="valid2">Last Name</label>
+              <input type="text" placeholder="Enter Your Last Name" id="lname"/>
+            </div>
+          </div>
+          <label for="" id="valid3">Country</label>
+          <input type="text" placeholder="Enter Your Country Name" id="contry"/>
+          <label for="" id="valid4">State</label>
+          <input type="text" placeholder="Enter Your State Name" id="state"/>
+          <label for="" id="valid8">Date Of Birth</label>
+          <input type="date" name="" placeholder="Enter your DOB" id="DOB">
+          <label for="" id="valid5">Email</label>
+          <input type="email" placeholder="Enter your Email" id="email"/>
+          <label for="" id="valid6">Mobile Number</label>
+          <input type="text" placeholder="Enter your Mobile Number" id="mobile"/>
+          <label for="" id="valid7">Password</label>
+          <input type="password" placeholder="Password" id="password"/>
+          <input type="submit" id="submit" />
+        </form>
+        <div class="or">
+          <h1>or</h1>
+        </div>
+        <div class="btns">
+          <button>
+            <a href="./Login.html">LogIn</a>
+          </button>
+          <button>
+            <img
+              src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-icon-logo-png-transparent-svg-vector-bie-supply-14.png"
+              alt=""
+            />
+            SingUp with Google
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+<script src="../js/Forms/Singup.js"></script>
+  </html>

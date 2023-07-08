@@ -1,0 +1,20 @@
+
+form{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    margin: 40px 50px 40px 50px;
+    text-align: left;
+}
+.names{
+    display: flex;
+}
+.names input{
+  width: 75%;
+}
+.fname{
+    margin-right: 40px;
+}
+#DOB{
+    text-align: center;
+}
