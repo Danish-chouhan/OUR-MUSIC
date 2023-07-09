@@ -20,7 +20,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.594);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.96);
   text-shadow: 4px 4px 5px rgb(0, 0, 0);
 }
 header b {
@@ -146,7 +146,7 @@ button img {
 }
 
 @media only screen and (max-width: 600px) {
-/* header */
+  /* header */
 
   header {
     height: 70px;
@@ -161,35 +161,47 @@ button img {
   header i {
     padding-left: 10px;
     font-size: 20px;
-  color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
   }
 
-  
   /* main */
 
   .main-container {
-    background-color: rgba(0, 0, 0, 0.694);
-    width: 90%;
+    background-color: transparent;
     margin: 13% 0 10% 0;
+    width: 100%;
+    border: none;
+    box-shadow: none;
   }
 
-  form {
-    margin: 40px 15px 40px 15px;
-  }
-  form input {
-    margin: 7px 0 20px 0;
-  }
   #submit {
     width: 120px;
+    height: 40px;
   }
-  .btns a {
-    font-size: 12px;
-  }
+
   button img {
     height: 19px;
-    padding-right: 10px;
   }
   .google {
     font-size: 10px;
+  }
+
+  form {
+    height: 400px;
+    width: 80%;
+  }
+  form input {
+    height: 50px;
+    width: 80%;
+    margin: 10px 0 20px 0;
+    background-color: transparent;
+    color: white;
+  }
+  form ::placeholder {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.575);
+  }
+  button {
+    width: 150px;
   }
 }
