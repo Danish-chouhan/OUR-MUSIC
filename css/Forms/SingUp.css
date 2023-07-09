@@ -1,20 +1,59 @@
+form {
+  display: flex;
+  flex-direction: column;
+  height: 650px;
+  margin: 40px 10px 40px 10px;
+  text-align: left;
+}
+.names {
+  display: flex;
+}
+.names input {
+  width: 70%;
+}
+.fname {
+  margin-right: 40px;
+}
+#DOB {
+  text-align: center;
+}
 
-form{
-    display: flex;
-    flex-direction: column;
-    height: 650px;
-    margin: 40px 50px 40px 50px;
-    text-align: left;
-}
-.names{
-    display: flex;
-}
-.names input{
-  width: 75%;
-}
-.fname{
-    margin-right: 40px;
-}
-#DOB{
+/* media equary */
+
+@media only screen and (max-width: 600px) {
+  /* header */
+
+  header {
+    height: 70px;
+  }
+  header h1 {
+    font-size: 20px;
+  }
+  header b {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+  }
+  header i {
+    padding-left: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+
+  /* main */
+
+  .main-container {
+    background-color: rgba(0, 0, 0, 0.694);
+    width: 90%;
+    margin: 13% 0 10% 0;
+  }
+
+  button img {
+    height: 19px;
+    padding-right: 10px;
+  }
+
+  form ::placeholder {
     text-align: center;
+    font-size: 10px;
+  }
 }
